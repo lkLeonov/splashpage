@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Alexey Leonov Motherfucker of all times</title>
+		<meta name="description" content="Behold Your King, motherfucker!" />
+		<meta name="keywords" content="shit, cool, webdev, motherfucer, javascript, бутерсколбасой" />
+		<meta name="author" content="Alexey Leonov" />
+		<style>
+			* { margin: 0; }
+			body {
+				background: #fff;
+				color: #383a3c;
+				font-weight: 400;
+				font-size: 1em;
+				line-height: 1.25;
+				font-family: 'Raleway', Calibri, Arial, sans-serif;
+			}
+
+			/* Header */
+			.large-header {
+				position: relative;
+				width: 100%;
+				background: black;
+				overflow: hidden;
+				background-size: cover;
+				background-position: center center;
+				z-index: 1;
+
+				background-image: url(bg.jpg);
+				background-size: 60%;
+				background-position: 175.9% center;
+				background-repeat: no-repeat;
+			}
+
+			.main-title {
+				/*position: absolute;
+				margin: 0;
+				padding: 0;*/
+				color: #f9f1e9;
+				/*text-align: center;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate3d(-50%,-50%,0);
+				transform: translate3d(-50%,-50%,0);*/
+				text-transform: uppercase;
+				font-size: 4.2em;
+				letter-spacing: 0.1em;
+			}
+
+			.main-title .thin {
+				font-weight: 200;
+			}
+
+			@media only screen and (max-width : 768px) {
+				.main-title {
+					font-size: 3em;
+				}
+				.large-header {
+					background-position: center center;
+					background-size: 130%;
+				}
+			}
+
+			.text-container {
+				position: absolute;
+				margin: 0;
+				padding: 0;
+				
+				text-align: center;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate3d(-50%,-50%,0);
+				transform: translate3d(-50%,-50%,0);
+				
+
+			}
+			.links {
+				font-size: 120%;
+				font-weight: 200;
+			}
+				.links a {
+					color: grey;
+					border-bottom: 1px solid rgba(125, 36, 36, 0.64);;
+					text-decoration: none;
+				}
+		</style>
+
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					<div class="text-container">
+						<h1 class="main-title">Ebat ya <span class="thin">Ohuenen</span></h1>
+						<h2 class="links"><a href="#">twitter</a> <a href="#">huitter</a> <a href="#">vkontakte</a> <a href="#">vhuyakte</a></h2>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/demo-1.js"></script>
+	</body>
+</html>
